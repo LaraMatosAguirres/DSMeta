@@ -1,10 +1,13 @@
-import './App.css'
+import "./App.css";
+import NotificationButton from "./components/NotificationButton";
 
 function App() {
-
   return (
-    <h1>Meu projeto</h1>
-  )
+    <>
+      <h1>Meu projeto</h1>
+      <NotificationButton />
+    </>
+  );
 }
 
-export default App
+export default App;
