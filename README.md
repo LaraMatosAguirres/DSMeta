@@ -20,8 +20,8 @@
 
 ## Front end
 
-- React
-- Node.js
+- ReactJS
+- NodeJS
 - TypeScript
 
 # Como executar o projeto
