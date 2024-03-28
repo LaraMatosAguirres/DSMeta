@@ -4,11 +4,11 @@
 
 # Sobre o projeto
 
+Projeto desenvolvido durante o Bootcamp DSMeta da DevSuperior.
+
+A ideia principal da aplicação é produzir um relatório de vendas, sendo possível filtrar por data. 
 
 ## Layout 
-
-
-## Modelo conceitual
 
 
 # Tecnologias utilizadas
