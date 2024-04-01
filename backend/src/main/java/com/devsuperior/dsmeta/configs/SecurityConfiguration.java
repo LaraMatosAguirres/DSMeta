@@ -12,12 +12,12 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/h2/**").permitAll()
+                .antMatchers("/h2/**", "/report-sales/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
                 .and()
-                .csrf().ignoringAntMatchers("/h2/**")
+                .csrf().ignoringAntMatchers("/h2/**", "/report-sales/**")
                 .and()
                 .headers().frameOptions().sameOrigin();
     }

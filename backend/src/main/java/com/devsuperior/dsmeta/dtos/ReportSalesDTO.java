@@ -1,19 +1,9 @@
-package com.devsuperior.dsmeta.entities;
+package com.devsuperior.dsmeta.dtos;
 
-
-
-import javax.persistence.*;
-import java.io.Serializable;
 import java.time.LocalDate;
-import java.util.Objects;
 
-@Entity
-@Table(name = "tb_sales")
-public class Sale implements Serializable {
-    private static final long versionUID = 1L;
+public class ReportSalesDTO {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String sellerName;
     private int visited;
@@ -21,10 +11,10 @@ public class Sale implements Serializable {
     private double amount;
     private LocalDate date;
 
-    public Sale() {
+    public ReportSalesDTO() {
     }
 
-    public Sale(long id, String sellerName, int visited, int deals, double amount, LocalDate date) {
+    public ReportSalesDTO(long id, String sellerName, int visited, int deals, double amount, LocalDate date) {
         this.id = id;
         this.sellerName = sellerName;
         this.visited = visited;
@@ -79,18 +69,5 @@ public class Sale implements Serializable {
 
     public void setDate(LocalDate date) {
         this.date = date;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Sale sale = (Sale) o;
-        return id == sale.id;
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id);
     }
 }
