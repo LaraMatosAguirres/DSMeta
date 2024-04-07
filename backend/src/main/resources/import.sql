@@ -73,3 +73,5 @@ INSERT INTO tb_sales (seller_name, visited, deals, amount, date) VALUES ('Anakin
 INSERT INTO tb_sales (seller_name, visited, deals, amount, date) VALUES ('Logan', 43, 26, 3056.0, '2021-11-08');
 INSERT INTO tb_sales (seller_name, visited, deals, amount, date) VALUES ('Anakin', 51, 21, 11190.0, '2021-11-05');
 INSERT INTO tb_sales (seller_name, visited, deals, amount, date) VALUES ('Padme', 67, 43, 14982.0, '2021-11-03');
+INSERT INTO tb_sales (seller_name, visited, deals, amount, date) VALUES ('Padme', 67, 43, 14982.0, '2023-11-03');
+INSERT INTO tb_sales (seller_name, visited, deals, amount, date) VALUES ('Padme', 67, 43, 14982.0, '2024-03-03');
