@@ -10,7 +10,14 @@ A ideia principal da aplicação é produzir um relatório de vendas, sendo poss
 
 ## Layout 
 
-https://github.com/LaraMatosAguirres/DSMeta/blob/main/images/apresentacao.mp4
+https://github.com/user-attachments/assets/de13f45e-053c-4f3c-aab3-25cc342362c7
+
+https://github.com/user-attachments/assets/a05747a1-a2b5-402c-b5be-f9a877abc23f
+
+https://github.com/user-attachments/assets/58288f76-bfbe-4482-8d53-c1ea9a7da344
+
+
+
 
 # Tecnologias utilizadas
 
