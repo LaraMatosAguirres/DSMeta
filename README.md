@@ -1,4 +1,4 @@
-# ChessSystem
+# DSMeta
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/LaraMatosAguirres/DSMeta/blob/main/LICENSE) 
 
@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/58288f76-bfbe-4482-8d53-c1ea9a7da344
 
 ## Front end
 
-- ReactJS
+- ReactJS 22
 - NodeJS
 - TypeScript
 
@@ -37,6 +37,10 @@ https://github.com/user-attachments/assets/58288f76-bfbe-4482-8d53-c1ea9a7da344
 ## Back end
 
 Pré-requisitos: Java 
+
+## Front end
+
+Pré-requisitos: NodeJs
 
 ```
 # clonar repositório
